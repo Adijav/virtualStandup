@@ -8,6 +8,11 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
+var mongoose = require('mongoose');
+
+mongoose.connect('mongodb://Adijav:1234567890@ds021701.mlab.com:21701/virtual-standup-database
+');
+
 var app = express();
 
 // view engine setup
