@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema();
+var Schema = mongoose.Schema;
 
 var virtualStandupSchema = new Schema({
 	memberName: String,
@@ -9,3 +9,5 @@ var virtualStandupSchema = new Schema({
 	impediment: String,
 	createdOn: {type: Date, default: Date.now}
 });
+
+module.exports = mongoose.model("virtualStandup", virtualStandupSchema);

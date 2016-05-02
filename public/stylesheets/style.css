@@ -1,8 +1,10 @@
 body {
+  font-family: 'EB Garamond', serif !important;
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
-a {
-  color: #00B7FF;
+.control-label {
+	text-align: right;
+}
+.form-group {
+	margin-bottom: 20px;
 }
