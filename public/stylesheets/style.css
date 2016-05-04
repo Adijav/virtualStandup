@@ -8,3 +8,6 @@ body {
 .form-group {
 	margin-bottom: 20px;
 }
+.statusUpdate {
+	margin: 20px !important;
+}
